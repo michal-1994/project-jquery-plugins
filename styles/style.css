@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+p {
+  opacity: 0.8;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.box {
+  border: 1px solid #000;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.box h2 {
+  text-align: center;
+}
+.first #accord h3 {
+  border: 1px solid #000;
+  cursor: pointer;
+  padding: 5px;
+}
+.first #accord h3:hover {
+  background-color: #000;
+  color: #fff;
+}
+.first #accord div {
+  background-color: #f2f2f2;
+}
+.first #accord div p {
+  font-size: 15px;
+  line-height: 1.7;
+  padding: 10px;
+}

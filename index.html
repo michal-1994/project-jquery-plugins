@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project jquery plugins</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="box first">
+                <h2>Accordion</h2>
+
+                <div id="accord" class="">
+                    <h3>Title 1</h3>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa diam, maximus at orci ut, pretium tempor orci. Nullam consectetur fermentum ligula, efficitur volutpat sem venenatis ut. Nam posuere felis scelerisque mattis egestas. Curabitur semper ut lacus non congue.</p></div>
+                    <h3>Title 2</h3>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa diam, maximus at orci ut, pretium tempor orci. Nullam consectetur fermentum ligula, efficitur volutpat sem venenatis ut. Nam posuere felis scelerisque mattis egestas. Curabitur semper ut lacus non congue.</p></div>
+                    <h3>Title 3</h3>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa diam, maximus at orci ut, pretium tempor orci. Nullam consectetur fermentum ligula, efficitur volutpat sem venenatis ut. Nam posuere felis scelerisque mattis egestas. Curabitur semper ut lacus non congue.</p></div>
+                </div>
+            </div>
+
+            <div class="box second">
+                <h2>title</h2>
+
+                <div id="" class="">
+
+                </div>
+            </div>
+
+            <div class="box third">
+                <h2>title</h2>
+
+                <div id="" class="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/jquery-1.11.0.min.js"></script>
+    <script src="./scripts/jquery-ui.js"></script>
+    <script>
+        $(function() {
+          $('#accord').accordion();
+        });
+    </script>
+</body>
+</html>
