@@ -1,36 +1,6 @@
-@color-light: #fff;
-@color-dark: darken(@color-light, 50%);
-@color-gray: darken(@color-light, 3%);
-
-@radius: 5px;
-@padd-text: 20px;
-
-*, *::after, *::before {
-    box-sizing: border-box;
-}
-
 body, html {
     margin: 0;
     padding: 0;
-}
-
-p {
-    opacity: .8;
-}
-
-h1, h2, h3 {
-    opacity: .8;
-    letter-spacing: 3px;
-    padding: 5px;
-}
-
-a {
-    text-decoration: none;
-    color: @color-dark;
-    transition: .3s all linear;
-    &:hover {
-        transition: .3s all linear;
-    }
 }
 
 .container {
@@ -48,89 +18,6 @@ a {
 }
 
 .box {
-    width: 100%;
     max-width: 600px;
-    margin: 20px auto;
-    padding: @padd-text;
-    border-radius: @radius;
-    h2 {
-        text-align: center;
-    }
+    width: 100%;
 }
-
-// // Accordion
-// .first {
-//     #accord {
-//         h3 {
-//             border: 1px solid @color-dark;
-//             cursor: pointer;
-//             border-radius: @radius;
-//             &:hover {
-//                 background-color: @color-dark;
-//                 color: @color-light;
-//             }
-//         }
-//         div {
-//             background-color: @color-gray;
-//             border-radius: @radius;
-//             p {
-//                 font-size: 15px;
-//                 line-height: 1.7;
-//                 padding: @padd-text;
-//             }
-//         }
-//     }
-// }
-
-// // Tabs
-// .second {
-//     #tabs {
-//         ul {
-//             display: flex;
-//             justify-content: flex-start;
-//             flex-wrap: wrap;
-//             align-items: center;
-//             margin: 0;
-//             padding: 0;
-//             list-style-type: none;
-//             margin-left: 15px;
-//             li {
-//                 border: 1px solid @color-gray;
-//                 border-bottom: none;
-//                 border-radius: @radius @radius 0 0;
-//                 a {
-//                     opacity: .8;
-//                     padding: 8px;
-//                     display: block;
-//                     border-radius: @radius @radius 0 0;
-//                     &:hover {
-//                         opacity: 1;
-//                         background-color: @color-gray;
-//                     }
-//                 }
-//             }
-//             .ui-state-active {
-//                 a {
-//                     background-color: @color-dark;
-//                     color: @color-light;
-//                     pointer-events: none;
-//                 }
-//             }
-//         }
-//         >div {
-//             border: 1px solid @color-dark;
-//             border-radius: 10px;
-//             padding: @padd-text;
-//         }
-//     }
-// }
-
-// // Form
-// .third {
-//     #form {
-//         #range-slider .ui-slider-handle {
-//             z-index: 1;
-//         }
-//     }
-// }
-
