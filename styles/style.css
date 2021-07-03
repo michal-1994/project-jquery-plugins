@@ -19,3 +19,6 @@ html {
   max-width: 600px;
   width: 100%;
 }
+#form .ui-slider-handle.ui-state-default.ui-corner-all {
+  z-index: 1;
+}
